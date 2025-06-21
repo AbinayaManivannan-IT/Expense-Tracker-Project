@@ -1,0 +1,29 @@
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right,rgb(185, 173, 185),rgb(154, 101, 154),rgb(185, 173, 185));
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+  color: azure;
+  overflow: scroll;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
